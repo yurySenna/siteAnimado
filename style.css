@@ -346,11 +346,12 @@ header nav ul li:hover::after {
     .content {
         width: 100%;
         padding: 0;
+        top: 30px;
     }
 
     .product-img img {
         max-width: 100%;
-        max-height: 200px;
+        max-height: 180px;
     }
 
     .product-name {
