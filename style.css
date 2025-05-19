@@ -225,12 +225,7 @@ header nav ul li:hover::after {
 .active .btn  {
     transform: translateX(0);
     opacity: 1;
-}
-
-.btn:hover {
-    cursor: pointer;
-   
-}    
+} 
 
 .arrows {
     position: absolute;
