@@ -352,10 +352,17 @@ header nav ul li:hover::after {
     .product-img img {
         max-width: 100%;
         max-height: 180px;
+        
+        
     }
 
     .product-name {
         font-size: 2.1rem;
+    }
+
+    .btn {
+        margin-bottom: 50px;
+        
     }
 
     .numbers {
