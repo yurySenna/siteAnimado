@@ -215,6 +215,16 @@ header nav ul li:hover::after {
     cursor: pointer;
     border: none;
 
+     /* animacao */
+    transform: translateX(200px);
+    opacity: 0;
+    transition: transform 0.6s ease, opacity 0.6s ease;
+    transition-delay: 0.5s;
+}
+
+.active .btn  {
+    transform: translateX(0);
+    opacity: 1;
 }
 
 .btn:hover {
