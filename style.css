@@ -339,7 +339,7 @@ header nav ul li:hover::after {
     .item {
         flex-direction: column;
         text-align: center;
-        padding: 20px;
+        padding: 15px;
     }
 
     .product-img,
@@ -354,7 +354,7 @@ header nav ul li:hover::after {
     }
 
     .product-name {
-        font-size: 2.5rem;
+        font-size: 2.1rem;
     }
 
     .numbers {
@@ -371,13 +371,13 @@ header nav ul li:hover::after {
     }
 
     header {
-        flex-direction: column;
+        /* flex-direction: column; */
         gap: 20px;
         padding: 15px 20px;
     }
 
     header nav ul {
-        flex-direction: column;
+        /* flex-direction: column; */
         gap: 20px;
     }
 }
